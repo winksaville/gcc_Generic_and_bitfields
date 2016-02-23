@@ -21,5 +21,7 @@ int main(void) {
   printf("type2str(s.b1):  %s\n", type2str(s.b1)); // unknown | unsigned int
   printf("type2str(s.b33): %s\n", type2str(s.b33));// unknown | unsigned long long int
 
+  printf("s.b33=0x%llx s.b33 << 10 = 0x%llx\n", s.b33, s.b33 << 10);
+
   return 0;
 }
